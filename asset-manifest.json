@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/forever-admin-panel/static/css/main.eb120bba.css",
-    "main.js": "/forever-admin-panel/static/js/main.c1af7643.js",
+    "main.js": "/forever-admin-panel/static/js/main.38026937.js",
     "index.html": "/forever-admin-panel/index.html",
     "main.eb120bba.css.map": "/forever-admin-panel/static/css/main.eb120bba.css.map",
-    "main.c1af7643.js.map": "/forever-admin-panel/static/js/main.c1af7643.js.map"
+    "main.38026937.js.map": "/forever-admin-panel/static/js/main.38026937.js.map"
   },
   "entrypoints": [
     "static/css/main.eb120bba.css",
-    "static/js/main.c1af7643.js"
+    "static/js/main.38026937.js"
   ]
 }
