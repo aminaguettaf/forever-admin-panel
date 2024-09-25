@@ -1,0 +1,37 @@
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1;
+    border-bottom: 1px solid #eee;
+}
+.nav-bar img{
+    width: 150px;
+}
+.nav-bar button{
+    font-size: 16px;
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 50px;
+    color: #fff;
+    background-color: var(--second-color);
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: .3s;
+}
+.nav-bar button:hover{
+    background-color: rgba(255, 192, 203, 0.5);
+    border: 1px solid pink;
+}
+@media (max-width:400px){
+    .nav-bar img{
+        width: 100px;
+    }
+    .nav-bar button{
+        font-size: 14px;
+    }
+}

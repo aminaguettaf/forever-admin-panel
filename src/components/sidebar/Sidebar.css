@@ -1,0 +1,30 @@
+.side-bar{
+    width: 20%;
+    border-right: 1px solid #eee;
+    height: 100vh;
+    position: fixed;
+    top: 78.34px;
+}
+.side-bar ul li{
+    border-width: 1px;
+    border-color: #eee transparent #eee #eee;
+    border-style: solid;
+}
+.side-bar ul li a{
+    color: #000;
+    text-transform: capitalize;
+}
+.side-bar ul li.active{
+    background-color: rgba(255, 192, 203, 0.5);
+    border-color: pink transparent pink pink;
+}
+@media (max-width:776px) {
+    .side-bar{
+        width: 10%;
+        overflow: hidden;
+        padding-left: 0 !important;
+    }
+    .side-bar ul li a p{
+        display: none;
+    }
+}
